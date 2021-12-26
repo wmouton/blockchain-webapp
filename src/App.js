@@ -35,9 +35,9 @@ class App extends Component {
               />
               
               <Route
-                path='/my-component'
+                path='/my-component-2'
                 render={(props) => (
-                  <MyComponent account={account} /> : null
+                  <MyComponent2 account={account} /> : null
                 )}
               />
 

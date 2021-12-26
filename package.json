@@ -1,9 +1,9 @@
 {
-  "name": "freelance-project",
+  "name": "WMouton Blockchain DAPP",
   "version": "0.1.0",
-  "author": "gregory@dappuniversity.com",
+  "author": "l33th@protonmail.ch",
   "engines": {
-    "node": "8.11.1"
+    "node": "16.11.1"
   },
   "private": true,
   "license": "AGPL-3.0-only",
