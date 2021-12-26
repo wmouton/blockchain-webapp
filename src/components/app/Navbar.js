@@ -28,17 +28,17 @@ function Navbar({ account, network, balanceOf }) {
       <NavbarGroup>
         <NavbarHeading id="brand-name">
           <Link to="/" style={styles.brandName}>
-            WMouton Blockchain DAPP
+            WMouton
           </Link>
         </NavbarHeading>
         <Link to="/">
           <Button className="bp3-minimal" text="Home" style={styles.button}/>
         </Link>
-        <Link to="/my-component">
-          <Button className="bp3-minimal" text="My Component" style={styles.button}/>
+        <Link to="/about">
+          <Button className="bp3-minimal" text="About" style={styles.button}/>
         </Link>
-        <Link to="/my-component-2">
-          <Button className="bp3-minimal" text="My Component 2" style={styles.button}/>
+        <Link to="/projects">
+          <Button className="bp3-minimal" text="Projects" style={styles.button}/>
         </Link>
       </NavbarGroup>
     </BlueprintNavbar>

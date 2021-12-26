@@ -3,8 +3,8 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import { connect } from 'react-redux'
 import Navbar from './components/app/Navbar'
 import Home from './components/app/Home'
-import MyComponent from './components/app/MyComponent'
-import MyComponent2 from './components/app/MyComponent2'
+import About from './components/app/About'
+import Projects from './components/app/Projects'
 import { loadWeb3 } from './store/interactions'
 
 class App extends Component {
@@ -30,16 +30,16 @@ class App extends Component {
           <div id="content">
             <Switch>
               <Route
-                path='/my-component'
+                path='/about'
                 render={(props) => (
-                  <MyComponent account={account} /> : null
+                  <About account={account} /> : null
                 )}
               />
               
               <Route
-                path='/my-component-2'
+                path='/projects'
                 render={(props) => (
-                  <MyComponent2 account={account} /> : null
+                  <Projects account={account} /> : null
                 )}
               />
 
