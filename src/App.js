@@ -14,6 +14,8 @@ class App extends Component {
 
   async loadBlockchainData(dispatch) {
     const web3 = await loadWeb3(dispatch)
+    const blockNumber = await web3.eth.getBlockNumber()
+    console.log(blockNumber)
   }
 
   render() {
